@@ -1,0 +1,34 @@
+<links>
+	~> online link for icons
+	~> online link for fonts 
+</links>
+
+
+
+<header>
+ <remaining>
+ 		-> font
+ 		~> color
+ </remaining>
+</header>
+
+<splash>
+	~> font for content
+	~> logo
+	~> typing effect
+</splash>
+
+<containers>
+		~> layout
+		~> icons
+		~> color
+		~> highlight
+</containers>
+
+
+<icons-set>
+	~> description : onhover, color slowly comes and blur slowly goes
+	~> spaceship
+	~> pen, paper
+	~> briefcase  
+</icon-set>

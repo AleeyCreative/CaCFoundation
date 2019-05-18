@@ -17,6 +17,7 @@ body {
 	margin:0px;
 	font-family:jabjai;
 	font-weight:bold;
+	background:#f1f1f1;
 }
 
 
@@ -32,7 +33,9 @@ body {
 	z-index:20;
 	left:0;
 	top:0;
+	filter:grayscale(.6);
 	width:100%;
+	font-family:factory LJDS;
 	font-size:1.3em;
 }
 
@@ -44,7 +47,7 @@ body {
 }
 .links a, .connect a {
 	text-decoration: none;
-	color:var(--blue-b);
+	color:#fff4;
 	padding:20px;
 }
 
@@ -89,14 +92,44 @@ body {
 	width:300px;
 	text-align:left;
 	margin:auto;
+	color:black;
+	padding:30px;
+	background:#e4f6;
+	font-family:serif;
 }
 
 /** containers styles **/
-.container {}
-.illustration {}
-.content {}
-.content-title {}
-.content-text {}
+.container {
+	display: flex;
+	flex-flow: row wrap;
+	background:white;
+	padding:40px;
+	box-sizing:border-box;
+	width:80%;
+	margin:30px auto;
+	justify-content:center;
+	align-items:center;	
+ }
+ 
+ .container:hover .illustration{
+ 	filter:blur(0px);
+ }
+.illustration {
+	margin:30px;
+	font-size:250px;
+	filter:blur(2px);
+	color:#eaff;
+}
+.content {
+}
+.content-title {
+	text-align:center;
+	font-size:2.4em;
+	color:#eaff;
+}
+.content-text {
+	font-family: factory LJDS;
+}
 
 
 
