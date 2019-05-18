@@ -1,0 +1,59 @@
+/** Stylesheet for Cloth-A-Child Foundation by AleeyCreative
+	website : https://www.aleeycreative.github.io
+**/
+
+/** Variables **/
+:root {
+	--red-a : rgba(90%,10%,10%,.8);
+	--red-b : rgba(90%,10%,10%,.6);
+	--red-c : rgba(90%,10%,10%,.4);
+	--green-a : rgba(10%,90%,10%,.8);
+	--green-b : rgba(10%,90%,10%,.6); 
+	--green-c : rgba(10%,90%,10%,.4);
+}
+
+/** header styles **/
+
+.header {
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:space-around;
+	align-items:space-between
+	background: var(--red-c);
+}
+.header:hover {
+	background : var(--red-a);
+}
+
+.links {
+
+}
+.links a {}
+.connect {}
+
+
+
+/** splash styles **/
+
+.splash {}
+.intro {}
+.intro-logo {}
+.intro-title {}
+.intro-title {}
+.intro-text {}
+
+/** containers styles **/
+.container {}
+.illustration {}
+.content {}
+.content-title {}
+.content-text {}
+
+
+
+/** footer styles **/
+.footer {}
+.nfp {}
+.social-links {}
+.social-links a {}
+

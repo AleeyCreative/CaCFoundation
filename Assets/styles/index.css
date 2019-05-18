@@ -1,0 +1,106 @@
+/** Stylesheet for Cloth-A-Child Foundation by AleeyCreative
+	website : https://www.aleeycreative.github.io
+**/
+
+/** Variables **/
+:root {
+	--red-a : rgba(90%,10%,10%,.8);
+	--red-b : rgba(90%,10%,10%,.6);
+	--red-c : rgba(90%,10%,10%,.4);
+	--blue-a : rgba(10%,10%,90%,.8);
+	--blue-b : rgba(10%,10%,90%,.6); 
+	--blue-c : rgba(10%,10%,90%,.4);
+}
+
+body {
+	padding:0px;
+	margin:0px;
+}
+
+
+/** header styles **/
+
+.header {
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:space-around;
+	align-items:space-between;
+	background:rgba(10,10,10,.3);
+	position:fixed;
+	z-index:20;
+	left:0;
+	top:0;
+	width:100%;
+	font-size:1.3em;
+}
+
+.links, .connect {
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:center;
+	align-items:center;
+}
+.links a, .connect a {
+	text-decoration: none;
+	color:var(--blue-b);
+	padding:20px;
+}
+
+.links a:hover, .connect a:hover {
+	background:var(--blue-c);
+	color:white;
+}
+
+/** splash styles **/
+
+.splash {
+	display:flex;
+	height:100%;
+	background:url(../pics/splash.jpg);
+	filter:sepia(1) brightness(1);
+	justify-content:center;
+	align-items:center;
+	transition:.3s;
+}
+.splash:hover{
+}
+.intro {
+	width:70%;
+	margin:auto;
+	text-align:center;
+	
+}
+.intro-logo {
+	width:150px;
+	height:150px;
+	border-radius:100%;
+	margin: 40px auto;
+	box-shadow:black 1px 1px 30px 1px;
+	background:url(../pics/middle-pic.jpg);
+}
+.intro-title {
+	font-size:2.5em;
+	font-weight:bold;
+	}
+.intro-title {}
+.intro-text {
+	width:300px;
+	text-align:left;
+	margin:auto;
+}
+
+/** containers styles **/
+.container {}
+.illustration {}
+.content {}
+.content-title {}
+.content-text {}
+
+
+
+/** footer styles **/
+.footer {}
+.nfp {}
+.social-links {}
+.social-links a {}
+
