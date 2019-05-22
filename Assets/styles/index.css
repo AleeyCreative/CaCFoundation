@@ -98,25 +98,50 @@ body {
 	font-family:serif;
 }
 
+/** Area **/	
+.area {
+display:grid;
+grid-template-rows : repeat(1fr,7);
+grid-template-columns : repeat(1fr,7);
+grid-template-areas : ". . . . . . ."
+											". . i1 . . i2 . "
+											". . i1 . . . ."
+											". . . . . . ."
+											". . . . i3 . ."
+											". . . . . . . "
+											". . . i4 . . ."
+											
+}
+
 /** containers styles **/
 .container {
 	display: flex;
-	flex-flow: row wrap;
+	flex-flow:row nowrap;
 	background:white;
 	padding:40px;
 	box-sizing:border-box;
-	width:80%;
-	margin:30px auto;
+	width:300px;
 	justify-content:center;
 	align-items:center;	
  }
  
- .container:hover .illustration{
- 	font-size:500px;
+ 
+ .i1 {
+ grid-area:i1;
+ }
+ .i2 {
+ grid-area: i2
+ }
+ .i3 {
+ grid-area : i3; 
+ }
+ .i4 {
+ grid-area:i4;
  }
 .illustration {
 	margin:30px;
-	font-size:250px;
+	width: 200px;
+	height: 200px;
 	color:#eaff;
 	transition:.5s;
 }
